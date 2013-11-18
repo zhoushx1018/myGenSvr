@@ -1,0 +1,6 @@
+#!/bin/sh
+ps -ef  | grep myGenSvr
+echo _________________
+ps aux | head -1; ps aux | grep myGenSvr
+echo __________________
+netstat -anp | grep 8880

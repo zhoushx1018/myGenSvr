@@ -1,0 +1,3 @@
+#!/bin/sh
+$PWD/myGenSvr myGenSvr.ini &
+#valgrind --log-file=memleak.txt --leak-check=full --trace-children=yes --leak-resolution=high --num-callers=20  --error-limit=no $PWD/myGenSvr myGenSvr.ini
